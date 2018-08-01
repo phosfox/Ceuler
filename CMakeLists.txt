@@ -3,4 +3,4 @@ project(project_euler C)
 
 set(CMAKE_C_STANDARD 99)
 include_directories("${PROJECT_SOURCE_DIR}")
-add_executable(project_euler main.c problems.c problems.h problem_11.c problem_4.c problem_5.c problem_6.c)
+add_executable(project_euler main.c problems.c problems.h problem_11.c problem_4.c problem_5.c problem_6.c problem_14.c solve_problem_15.c)

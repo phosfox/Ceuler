@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <problems.h>
+#include <time.h>
 
-const NUMBEROFTRIANGLES = 50000;
+const int NUMBEROFTRIANGLES = 50000;
 
 struct Triangle {
     int xth;
@@ -68,11 +69,20 @@ int getTriangleWithNFactor(Triangle * triangles, int n) {
 
 int main() {
 
+    clock_t start = clock(), diff;
+
+    solve_problem_15();
+
+    diff = clock() - start;
+    int msec = diff * 1000 / CLOCKS_PER_SEC;
+    printf("Time taken %d seconds %d milliseconds", msec/1000, msec%1000);
+
+    //solve_problem_14();
     //solve_problem_4();
 
     //solve_problem_5();
 
-    solve_problem_6();
+    //solve_problem_6();
 
     //solve_problem_11();
 
