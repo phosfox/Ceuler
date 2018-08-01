@@ -8,7 +8,7 @@ int countRoutes(int m, int n) {
     int routes;
     long *grid[m + 1];
     for (int k = 0; k < m + 1; k++) {
-        grid[k] = (long *) malloc((n + 1) * sizeof(long));
+        grid[k] = malloc((n + 1) * sizeof(long));
     }
 
     for (int i = 0; i <= m; i++) {
