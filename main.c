@@ -71,12 +71,13 @@ int main() {
 
     clock_t start = clock(), diff;
 
-    solve_problem_15();
+    solve_problem_16();
 
     diff = clock() - start;
     int msec = diff * 1000 / CLOCKS_PER_SEC;
     printf("Time taken %d seconds %d milliseconds", msec/1000, msec%1000);
 
+    //solve_problem_15();
     //solve_problem_14();
     //solve_problem_4();
 

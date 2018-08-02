@@ -12,4 +12,5 @@ void solve_problem_5();
 void solve_problem_6();
 void solve_problem_14();
 void solve_problem_15();
+void solve_problem_16();
 #endif //PROJECT_EULER_PROBLEM_12_H
